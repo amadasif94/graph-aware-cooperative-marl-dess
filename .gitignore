@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# checkpoints/results
+results/checkpoints/
+results/models/
+results/logs/
+
+# model files
+*.pt
+*.pth
+
+# large outputs
+results/**/*.csv
+results/**/*.png
+
+# raw datasets
+data/smartds_raw/
+
+# environment
+.env
+venv/
+conda/
+
+# misc
+.DS_Store
+
+# pip/cache
+c/
+pip_cache/
