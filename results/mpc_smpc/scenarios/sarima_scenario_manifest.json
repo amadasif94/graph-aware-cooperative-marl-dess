@@ -1,0 +1,57 @@
+{
+  "input_wide_forecast_csv": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/mpc_smpc/forecasts/forecast_33bus_load_pv_sep_dec_wide.csv",
+  "input_residual_archive_csv": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/mpc_smpc/forecasts/residual_archive_sep_nov_33bus_load_pv.csv",
+  "output_dir": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/mpc_smpc/scenarios",
+  "num_buses": 33,
+  "n_scen": 100,
+  "seasonal_period": 96,
+  "random_seed": 42,
+  "n_workers": 8,
+  "sarima_maxiter": 50,
+  "skip_grid_if_order_exists": true,
+  "force_grid_search": false,
+  "load_grid_was_run": true,
+  "pv_grid_was_run": true,
+  "representative_load_bus": 11,
+  "representative_load_col": "residual_load_node_11",
+  "representative_pv_bus": 22,
+  "representative_pv_col": "residual_pv_node_22",
+  "load_order": [
+    1,
+    0,
+    2
+  ],
+  "load_seasonal_order": [
+    0,
+    1,
+    1,
+    96
+  ],
+  "pv_order": [
+    2,
+    0,
+    3
+  ],
+  "pv_seasonal_order": [
+    0,
+    1,
+    1,
+    96
+  ],
+  "load_scenarios_npz": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/mpc_smpc/scenarios/load_scenarios_december_33bus.npz",
+  "pv_scenarios_npz": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/mpc_smpc/scenarios/pv_scenarios_december_33bus.npz",
+  "array_shape": {
+    "load_scenarios": [
+      2976,
+      33,
+      100
+    ],
+    "pv_scenarios": [
+      2976,
+      33,
+      100
+    ],
+    "meaning": "[T_DEC, 33 buses, N_SCEN]"
+  },
+  "long_csv_written": false
+}

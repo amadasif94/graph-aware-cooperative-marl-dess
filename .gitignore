@@ -44,3 +44,22 @@ tmp/
 c/
 __pycache__/
 *.pyc
+data/smartds_raw/
+# results to ignore
+results/checkpoints/
+results/models/
+results/logs/
+results/csv/
+results/mpc_smpc/models/
+
+# large scenario tensors
+results/mpc_smpc/scenarios/*.npz
+results/mpc_smpc/scenarios_ieee69/*.npz
+
+# large scenario tensors
+results/mpc_smpc/scenarios/*.npz
+results/mpc_smpc/scenarios_ieee69/*.npz
+
+# large scenario tensors
+results/mpc_smpc/scenarios/*.npz
+results/mpc_smpc/scenarios_ieee69/*.npz
