@@ -1,0 +1,2 @@
+model_name,model_type,checkpoint,device,mode,episode_id,start_index,steps,mean_inference_time_ms,std_inference_time_ms,median_inference_time_ms,p95_inference_time_ms,min_inference_time_ms,max_inference_time_ms,total_episode_inference_time_ms,control_interval_s,mean_time_fraction_of_control_interval
+mlp_run_2,mlp_no_gnn,results/models/IEEE33/mlp/run_2.pt,cpu,test,0,32064,96,1.2487535956703748,0.42514899671872036,1.1353450827300549,1.5333779156208038,0.8709118701517582,4.746207036077976,119.88034518435597,900.0,1.3875039951893053e-06

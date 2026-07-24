@@ -1,0 +1,2 @@
+model_name,gnn_type,checkpoint,device,mode,episode_id,start_index,steps,mean_inference_time_ms,std_inference_time_ms,median_inference_time_ms,p95_inference_time_ms,min_inference_time_ms,max_inference_time_ms,total_episode_inference_time_ms,control_interval_s,mean_time_fraction_of_control_interval
+gcn_run_2,gcn,results/models/IEEE33/gcn/run_2.pt,cpu,test,0,32064,96,4.474111497984268,0.34115748486783376,4.6190794091671705,4.802956595085561,3.5040038637816906,4.895898979157209,429.5147038064897,900.0,4.971234997760298e-06

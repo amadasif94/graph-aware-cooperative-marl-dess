@@ -4,7 +4,6 @@ __pycache__/
 
 # checkpoints/results
 results/checkpoints/
-results/models/
 results/logs/
 
 # model files
@@ -12,8 +11,6 @@ results/logs/
 *.pth
 
 # large outputs
-results/**/*.csv
-results/**/*.png
 
 # raw datasets
 data/smartds_raw/
@@ -47,9 +44,7 @@ __pycache__/
 data/smartds_raw/
 # results to ignore
 results/checkpoints/
-results/models/
 results/logs/
-results/csv/
 results/mpc_smpc/models/
 
 # large scenario tensors
