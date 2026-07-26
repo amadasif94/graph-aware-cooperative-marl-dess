@@ -1,8 +1,8 @@
-# Topology-Aware Multi-Agent Reinforcement Learning for Distributed Energy Storage in Reconfigurable Distribution Networks
+# Graph-Based Multi-Agent Reinforcement Learning for Zero-Shot Topology Generalization in Reconfigurable Distribution Networks
 
 This repository contains the official implementation of the paper:
 
-> **Topology-Aware Multi-Agent Reinforcement Learning for Distributed Energy Storage in Reconfigurable Distribution Networks**
+> **Graph-Based Multi-Agent Reinforcement Learning for Zero-Shot Topology Generalization in Reconfigurable Distribution Networks**
 
 The framework develops topology-aware graph-based multi-agent reinforcement learning (MARL) controllers for coordinated operation of distributed energy storage systems (DESSs) in reconfigurable radial distribution networks. The proposed approach combines Multi-Agent Deep Deterministic Policy Gradient (MADDPG) with graph neural networks (GNNs), enabling decentralized controllers to exploit electrical network topology while maintaining scalable execution.
 
